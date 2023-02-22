@@ -22,6 +22,7 @@ namespace BT_Tuan2
         }
         public void Connection(string sqlStr)
         {
+            conn.Open();
             try
             {                
                 SqlCommand cmd = new SqlCommand(sqlStr, conn);

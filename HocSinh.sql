@@ -16,4 +16,6 @@ INSERT INTO HocSinh(Ma, Ten, Diachi, Cmnd, Ngaysinh, Email, SoDT)
 VALUES('456', 'diemmy', 'tra vinh', '221', 28-12-2003, 'my@', '429');
 INSERT INTO HocSinh(Ma, Ten, Diachi, Cmnd, Ngaysinh, Email, SoDT)
 VALUES('789', 'mymy', 'tra vinh', '445', 28-12-2003, 'my@', '429');
+INSERT INTO HocSinh(Ma, Ten, Diachi, Cmnd, Ngaysinh, Email, SoDT)
+VALUES('{0}','{1}','{2}','{3}', 28-12-2003, '{5}','{6}');
 
