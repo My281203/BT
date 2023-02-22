@@ -1,0 +1,24 @@
+C:\Users\Admin\Documents\CNTT\HK4\Winform\Tự học\Inform_2\Inform_2\bin\Debug\Inform_2.exe.config
+C:\Users\Admin\Documents\CNTT\HK4\Winform\Tự học\Inform_2\Inform_2\bin\Debug\Inform_2.exe
+C:\Users\Admin\Documents\CNTT\HK4\Winform\Tự học\Inform_2\Inform_2\bin\Debug\Inform_2.pdb
+C:\Users\Admin\Documents\CNTT\HK4\Winform\Tự học\Inform_2\Inform_2\obj\Debug\Inform_2.csproj.AssemblyReference.cache
+C:\Users\Admin\Documents\CNTT\HK4\Winform\Tự học\Inform_2\Inform_2\obj\Debug\Inform_2.csproj.SuggestedBindingRedirects.cache
+C:\Users\Admin\Documents\CNTT\HK4\Winform\Tự học\Inform_2\Inform_2\obj\Debug\Inform_2.HocSinh.resources
+C:\Users\Admin\Documents\CNTT\HK4\Winform\Tự học\Inform_2\Inform_2\obj\Debug\Inform_2.Properties.Resources.resources
+C:\Users\Admin\Documents\CNTT\HK4\Winform\Tự học\Inform_2\Inform_2\obj\Debug\Inform_2.csproj.GenerateResource.cache
+C:\Users\Admin\Documents\CNTT\HK4\Winform\Tự học\Inform_2\Inform_2\obj\Debug\Inform_2.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Documents\CNTT\HK4\Winform\Tự học\Inform_2\Inform_2\obj\Debug\Inform_2.exe
+C:\Users\Admin\Documents\CNTT\HK4\Winform\Tự học\Inform_2\Inform_2\obj\Debug\Inform_2.pdb
+C:\Users\Admin\Documents\CNTT\HK4\Winform\Tự học\Inform_2\Inform_2\obj\Debug\Inform_2.GiaoVien.resources
+F:\HK2\Windows\Inform_2\Inform_2\bin\Debug\Inform_2.exe.config
+F:\HK2\Windows\Inform_2\Inform_2\bin\Debug\Inform_2.exe
+F:\HK2\Windows\Inform_2\Inform_2\bin\Debug\Inform_2.pdb
+F:\HK2\Windows\Inform_2\Inform_2\obj\Debug\Inform_2.csproj.AssemblyReference.cache
+F:\HK2\Windows\Inform_2\Inform_2\obj\Debug\Inform_2.csproj.SuggestedBindingRedirects.cache
+F:\HK2\Windows\Inform_2\Inform_2\obj\Debug\Inform_2.GiaoVien.resources
+F:\HK2\Windows\Inform_2\Inform_2\obj\Debug\Inform_2.HocSinh.resources
+F:\HK2\Windows\Inform_2\Inform_2\obj\Debug\Inform_2.Properties.Resources.resources
+F:\HK2\Windows\Inform_2\Inform_2\obj\Debug\Inform_2.csproj.GenerateResource.cache
+F:\HK2\Windows\Inform_2\Inform_2\obj\Debug\Inform_2.csproj.CoreCompileInputs.cache
+F:\HK2\Windows\Inform_2\Inform_2\obj\Debug\Inform_2.exe
+F:\HK2\Windows\Inform_2\Inform_2\obj\Debug\Inform_2.pdb
