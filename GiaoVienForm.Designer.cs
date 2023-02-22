@@ -96,7 +96,7 @@
             this.gvGiaoVien.RowTemplate.Height = 24;
             this.gvGiaoVien.Size = new System.Drawing.Size(780, 379);
             this.gvGiaoVien.TabIndex = 4;
-            this.gvGiaoVien.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.gvGiaoVien_CellContentClick);
+            this.gvGiaoVien.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.gvGiaoVien_CellClick);
             // 
             // label2
             // 

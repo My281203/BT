@@ -60,7 +60,8 @@
             this.gvHocSinh.RowTemplate.Height = 24;
             this.gvHocSinh.Size = new System.Drawing.Size(739, 341);
             this.gvHocSinh.TabIndex = 0;
-            this.gvHocSinh.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.gvHocSinh_CellContentClick);
+            this.gvHocSinh.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.gvHocSinh_CellClick);
+
             // 
             // label1
             // 

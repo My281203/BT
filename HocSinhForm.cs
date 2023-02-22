@@ -53,8 +53,8 @@ namespace BT_Tuan2
         {
             GiaoVienForm gv = new GiaoVienForm();
             gv.ShowDialog();
-        }
-        private void gvHocSinh_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        }    
+        private void gvHocSinh_CellClick(object sender, DataGridViewCellEventArgs e)
         {
             DataGridViewRow row = new DataGridViewRow();
             if (e.RowIndex >= 0)

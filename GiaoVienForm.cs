@@ -56,7 +56,7 @@ namespace BT_Tuan2
             dao.checkNumber(txtNumber.Text);
             GiaoVien_Load(sender, e);
         }
-        private void gvGiaoVien_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        private void gvGiaoVien_CellClick(object sender, DataGridViewCellEventArgs e)
         {
             DataGridViewRow row = new DataGridViewRow();
             if (e.RowIndex >= 0)
