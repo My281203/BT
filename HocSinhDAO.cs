@@ -19,21 +19,21 @@ namespace BT_Tuan2
         {
             return db.DanhSach(dshs);
         }
-        public void Add(HocSinh hs)
+        public void Add(Person hs)
         {
-            conn.Open();
+           
             string sqlStr = String.Format("INSERT INTO HocSinh(Ma, Ten, Diachi, Cmnd, Ngaysinh, Email, SoDT) VALUES('{0}','{1}','{2}','{3}', '{4}', '{5}','{6}')", hs.Id, hs.Name, hs.Diachi, hs.Cmnd, hs.Dateofbirth, hs.Email, hs.Number);
             db.Connection(sqlStr);
         }
-        public void Update(HocSinh hs)
+        public void Update(Person hs)
         {
-            conn.Open();
+          
             string sqlStr = String.Format("UPDATE HocSinh SET Ten = '{1}', Diachi = '{2}', Cmnd = '{3}', Ngaysinh = '{4}', Email = '{5}', SoDT = '{6}' WHERE Ma = '{0}'", hs.Id, hs.Name, hs.Diachi, hs.Cmnd, hs.Dateofbirth, hs.Email, hs.Number);
             db.Connection(sqlStr);
         }
-        public void Delete(HocSinh hs)
+        public void Delete(Person hs)
         {
-            conn.Open();
+         
             string sqlStr = String.Format("DELETE FROM HocSinh WHERE Ma = '{0}'", hs.Id);
             db.Connection(sqlStr);
         }

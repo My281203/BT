@@ -34,7 +34,7 @@ namespace BT_Tuan2
         }
         private void btnAdd_Click_1(object sender, EventArgs e)
         {
-            GiaoVien gv = new GiaoVien(txtId.Text, txtName.Text, txtAddress.Text, txtCmnd.Text, dtpDateofbirth.Value.Date, txtEmail.Text, txtNumber.Text);
+            Person gv = new GiaoVien(txtId.Text, txtName.Text, txtAddress.Text, txtCmnd.Text, dtpDateofbirth.Value.Date, txtEmail.Text, txtNumber.Text);
             dao.Add(gv);
             dao.checkEmail(txtEmail.Text);
             dao.checkNumber(txtNumber.Text);
@@ -42,7 +42,7 @@ namespace BT_Tuan2
         }
         private void btnDelete_Click_1(object sender, EventArgs e)
         {
-            GiaoVien gv = new GiaoVien(txtId.Text, txtName.Text, txtAddress.Text, txtCmnd.Text, dtpDateofbirth.Value.Date, txtEmail.Text, txtNumber.Text);
+            Person gv = new GiaoVien(txtId.Text, txtName.Text, txtAddress.Text, txtCmnd.Text, dtpDateofbirth.Value.Date, txtEmail.Text, txtNumber.Text);
             dao.Delete(gv);
             dao.checkEmail(txtEmail.Text);
             dao.checkNumber(txtNumber.Text);
@@ -50,7 +50,7 @@ namespace BT_Tuan2
         }
         private void btnUpdate_Click_1(object sender, EventArgs e)
         {
-            GiaoVien gv = new GiaoVien(txtId.Text, txtName.Text, txtAddress.Text, txtCmnd.Text, dtpDateofbirth.Value.Date, txtEmail.Text, txtNumber.Text);
+            Person gv = new GiaoVien(txtId.Text, txtName.Text, txtAddress.Text, txtCmnd.Text, dtpDateofbirth.Value.Date, txtEmail.Text, txtNumber.Text);
             dao.Update(gv);
             dao.checkEmail(txtEmail.Text);
             dao.checkNumber(txtNumber.Text);

@@ -27,7 +27,7 @@ namespace BT_Tuan2
         }
         private void btnAdd_Click(object sender, EventArgs e)
         {
-            HocSinh hs = new HocSinh(txtId.Text, txtName.Text, txtAddress.Text, txtCmnd.Text, dtpDateofbirth.Value.Date, txtEmail.Text, txtNumber.Text);
+            Person hs = new HocSinh(txtId.Text, txtName.Text, txtAddress.Text, txtCmnd.Text, dtpDateofbirth.Value.Date, txtEmail.Text, txtNumber.Text);
             dao.Add(hs);
             dao.checkEmail(txtEmail.Text);
             dao.checkNumber(txtNumber.Text);
@@ -35,7 +35,7 @@ namespace BT_Tuan2
         }
         private void btnUpdate_Click(object sender, EventArgs e)
         {
-            HocSinh hs = new HocSinh(txtId.Text, txtName.Text, txtAddress.Text, txtCmnd.Text, dtpDateofbirth.Value.Date, txtEmail.Text, txtNumber.Text);
+            Person hs = new HocSinh(txtId.Text, txtName.Text, txtAddress.Text, txtCmnd.Text, dtpDateofbirth.Value.Date, txtEmail.Text, txtNumber.Text);
             dao.Update(hs);
             dao.checkEmail(txtEmail.Text);
             dao.checkNumber(txtNumber.Text);
@@ -43,7 +43,7 @@ namespace BT_Tuan2
         }
         private void btnDelete_Click(object sender, EventArgs e)
         {
-            HocSinh hs = new HocSinh(txtId.Text, txtName.Text, txtAddress.Text, txtCmnd.Text, dtpDateofbirth.Value.Date, txtEmail.Text, txtNumber.Text);
+            Person hs = new HocSinh(txtId.Text, txtName.Text, txtAddress.Text, txtCmnd.Text, dtpDateofbirth.Value.Date, txtEmail.Text, txtNumber.Text);
             dao.Delete(hs);
             dao.checkEmail(txtEmail.Text);
             dao.checkNumber(txtNumber.Text);
